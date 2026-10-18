@@ -59,4 +59,4 @@ Para ejecutar el programa se necesita:
 5. Uso de listas paralelas
 El programa utiliza dos listas: productos y cantidades. Ambas se relacionan mediante sus índices, de manera que el elemento ubicado en una posición de la lista productos corresponde a la cantidad que ocupa esa misma posición en cantidades.
 
-Por ejemplo, si productos[0] contiene "Arroz", entonces cantidades[0] contiene la cantidad disponible de arroz. Al modificar o eliminar un producto, se actualiza la lista de cantidades en la misma posición para mantener la información relacionada correctamente.
+Ejemplo, si productos[0] contiene "Arroz", entonces cantidades[0] contiene la cantidad disponible de arroz. Al modificar o eliminar un producto, se actualiza la lista de cantidades en la misma posición para mantener la información relacionada correctamente.
