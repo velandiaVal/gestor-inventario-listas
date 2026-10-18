@@ -4,9 +4,14 @@ cantidades = []
 
 def registrar_producto():
     nombre = input("Nombre del producto: ").strip()
-    cantidad = int(input("Cantidad disponible: "))
-    productos.append(nombre)
-    cantidades.append(cantidad)
+
+    if nombre in productos:
+        print("Este producto ya esta registrado.")
+    else:
+        cantidad = int(input("Cantidad disponible: "))
+        productos.append(nombre)
+        cantidades.append(cantidad)
+        print("Producto registrado correctamente.")
 
 
 def mostrar_inventario():
