@@ -20,7 +20,7 @@ Para ejecutar el programa se necesita:
 ▹ El programa utiliza funciones y listas propias en Python, por lo que no necesitamos instalar librerías externas.
 
 
-4. Instrucciones de uso
+3. Instrucciones de uso
    
 ▹ Ejecutar el archivo main.py.
 
@@ -38,7 +38,7 @@ Para ejecutar el programa se necesita:
 
  Los datos se mantienen durante la ejecución del programa. Al cerrarlo, el inventario no se conserva para la siguiente ejecución.
 
-5. Funciones implementadas
+4. Funciones implementadas
    
 ▹ registrar_producto(): solicita el nombre del producto y su cantidad disponible, y guarda ambos datos en sus respectivas listas.
 
@@ -56,7 +56,7 @@ Para ejecutar el programa se necesita:
 
 ▹ salir_programa(): muestra un mensaje de despedida al seleccionar la opción de salida.
 
-6. Uso de listas paralelas
+5. Uso de listas paralelas
 El programa utiliza dos listas: productos y cantidades. Ambas se relacionan mediante sus índices, de manera que el elemento ubicado en una posición de la lista productos corresponde a la cantidad que ocupa esa misma posición en cantidades.
 
 Por ejemplo, si productos[0] contiene "Arroz", entonces cantidades[0] contiene la cantidad disponible de arroz. Al modificar o eliminar un producto, se actualiza la lista de cantidades en la misma posición para mantener la información relacionada correctamente.
